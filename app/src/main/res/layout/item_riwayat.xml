@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Warga"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/textViewAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/textViewIuranKas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iuran Kas"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/textViewIuranKeamanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iuran Keamanan"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/textViewIuranKebersihan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iuran Kebersihan"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/textViewDanaSosial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dana Sosial"
+        android:textSize="14sp"/>
+    <Button
+        android:id="@+id/buttonHapus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hapus"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Warga" />
+
+    <EditText
+        android:id="@+id/editTextAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat" />
+
+    <EditText
+        android:id="@+id/editTextIuranKas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Iuran Kas" />
+
+    <EditText
+        android:id="@+id/editTextIuranKeamanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Iuran Keamanan" />
+
+    <EditText
+        android:id="@+id/editTextIuranKebersihan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Iuran Kebersihan" />
+
+    <EditText
+        android:id="@+id/editTextDanaSosial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dana Sosial" />
+</LinearLayout>
